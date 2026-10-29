@@ -1,7 +1,7 @@
 # Simple script to produce a stacked bar chart of publications for HRCM, annotated with key projects.
 # NB, for simplicity, "EERIE.bib" includes km-scale work (DYAMOND, nextGEMS etc) that could be separated in future.
 #
-# Author: AJB
+# Author: Alexander J. Baker
 
 
 from pybtex import database
