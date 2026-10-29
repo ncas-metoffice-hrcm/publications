@@ -1,5 +1,5 @@
 # publications
-Categorise and visualise peer-reviewed publications from HRCM using .bib files.
+Categorise and visualise peer-reviewed publications from HRCM.
 
 New publications should be added to the relevant `.bib` file:
 
