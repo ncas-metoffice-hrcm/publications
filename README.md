@@ -3,7 +3,7 @@ Categorise and visualise peer-reviewed publications from HRCM.
 
 New publications should be added to the relevant `.bib` file, listed below. New `.bib` files (e.g., for new projects, CONCERTO, RAZOREDGE) may be created in `bib/` and added to `simple_pybib.py` as a new `PublicationGroup()` class.
 
-Additionally, the `.bib` files in this repo are used by [cedadev/hrcm-website](https://github.com/cedadev/hrcm-website/tree/main) to generate a public, searchable publications list at [hrcm.ceda.ac.uk/publications](https://hrcm.ceda.ac.uk/publications/).  
+Additionally, the `.bib` files in this repo are used to generate a public, searchable publications list at [hrcm.ceda.ac.uk/publications](https://hrcm.ceda.ac.uk/publications/). After adding a publication, run the "Update publications" workflow at the website repo ([cedadev/hrcm-website](https://github.com/cedadev/hrcm-website/tree/main)).  
 
 `HRCM_core.bib`  
 Publications covering Met Office model development and underpinning capability.  
