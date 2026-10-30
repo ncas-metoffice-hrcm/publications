@@ -1,7 +1,9 @@
 # publications
 Categorise and visualise peer-reviewed publications from HRCM.
 
-New publications should be added to the relevant `.bib` file:
+New publications should be added to the relevant `.bib` file, listed below. New `.bib` files (e.g., for new projects, CONCERTO, RAZOREDGE) may be created in `bib/` and added to `simple_pybib.py` as a new `PublicationGroup()` class.
+
+The .bib files in this repo are used by [cedadev/hrcm-website](https://github.com/cedadev/hrcm-website/tree/main) to generate the searchable publications list at [hrcm.ceda.ac.uk/publications](https://hrcm.ceda.ac.uk/publications/).  
 
 `HRCM_core.bib`  
 Publications covering Met Office model development and underpinning capability.  
@@ -13,5 +15,3 @@ Publications from the UPSCALE project on resolution sensitivity using the Unifie
 Publications from CMIP6-HighResMIP and PRIMAVERA, the project that coordinated the European contribution.  
 `EERIE.bib`  
 Publications from EERIE, the successor project to PRIMAVERA, and related km-scale modelling work (e.g., nextGEMS, DYAMOND, HighResMIP). This will likely be broken into multiple files km-scale work progresses.  
-
-New `.bib` files (e.g., for new projects, CONCERTO, RAZOREDGE) may be created in `bib/` and added to `simple_pybib.py` as a new `PublicationGroup()` class.
