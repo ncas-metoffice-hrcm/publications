@@ -14,4 +14,4 @@ Publications from CMIP6-HighResMIP and PRIMAVERA, the project that coordinated t
 `EERIE.bib`  
 Publications from EERIE, the successor project to PRIMAVERA, and related km-scale modelling work (e.g., nextGEMS, DYAMOND, HighResMIP). This will likely be broken into multiple files km-scale work progresses.  
 
-New `.bib` files (e.g., for CONCERTO, RAZOREDGE) may be created and added to `simple_pybib.py` as a new `PublicationGroup()` class.
+New `.bib` files (e.g., for new projects, CONCERTO, RAZOREDGE) may be created in `bib/`, and added to `simple_pybib.py` as a new `PublicationGroup()` class.
