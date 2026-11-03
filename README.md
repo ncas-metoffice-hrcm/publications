@@ -18,4 +18,9 @@ Publications from the UK–Japan Climate Collaboration, covering early model-dev
 **`bib/UPSCALE.bib`**  
 Publications from the UPSCALE project on resolution sensitivity using the Unified Model.  
 **`bib/unclassified.bib`**  
-Papers with undefined project link.
+Papers with undefined project link.  
+
+### scripts:
+
+**`simple_pybib.py`**  
+Plot categorised, stacked bar chart of HRCM publications over time and save in `figures/`.  
