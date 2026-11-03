@@ -1,11 +1,11 @@
 # publications
-This repo contains categorised bibliographical data for all peer-reviewed publications from HRCM, and a simple script to visualise publications over time.
+This repo contains categorised bibliographical data for all peer-reviewed publications from HRCM, and a script to visualise publications over time.
 
-New publications should be added to the relevant `.bib` file, listed below. New `.bib` files (e.g., for new projects, CONCERTO, RAZOREDGE) may be created in `bib/` and added to `simple_pybib.py` as a new `PublicationGroup()` class.
+**All new publications should be added to the relevant `.bib` file, listed below.**  
 
-The `.bib` files in this repo are used to generate a public, searchable publications list at [hrcm.ceda.ac.uk/publications](https://hrcm.ceda.ac.uk/publications/). After adding a publication here, run the "Update publications" workflow at the website repo ([cedadev/hrcm-website](https://github.com/cedadev/hrcm-website/tree/main)).  
+The `.bib` files in this repo are used to generate a public, searchable publications list at [hrcm.ceda.ac.uk/publications](https://hrcm.ceda.ac.uk/publications/). After adding a publication here, in `BibTeX` format, run the "Update publications" workflow at the HRCM website repo ([cedadev/hrcm-website](https://github.com/cedadev/hrcm-website/tree/main)). New `.bib` files (e.g., for new projects, consortia) may be created in `bib/`.  
 
-### .bib files:
+#### `.bib/`
 
 **`bib/EERIE.bib`**  
 Publications from EERIE, the successor project to PRIMAVERA, and related km-scale modelling work (e.g., nextGEMS, DYAMOND, HighResMIP). This will likely be broken into multiple files km-scale work progresses.  
@@ -18,9 +18,7 @@ Publications from the UK–Japan Climate Collaboration, covering early model-dev
 **`bib/UPSCALE.bib`**  
 Publications from the UPSCALE project on resolution sensitivity using the Unified Model.  
 **`bib/unclassified.bib`**  
-Papers with undefined project link.  
+Papers with (currently) no defined project link.  
 
-### scripts:
-
-**`simple_pybib.py`**  
-Plot categorised, stacked bar chart of HRCM publications over time and save in `figures/`.  
+#### `simple_pybib.py`  
+Plot categorised, stacked bar chart of HRCM publications over time and save in `figures/`. Any new or renamed `.bib` files must be updated in `simple_pybib.py` — see the `PublicationGroup()` class.  
