@@ -1,9 +1,10 @@
 # publications
 This repo contains categorised bibliographical data for all peer-reviewed publications from HRCM, and a script to visualise publications over time.
 
-**All new publications should be added to the relevant `.bib` file, listed below.**  
+> [!NOTE]
+> All new publications should be added to the relevant `.bib` file, listed below.  
 
-The `.bib` files in this repo are used to generate a public, searchable publications list at [**hrcm.ceda.ac.uk/publications**](https://hrcm.ceda.ac.uk/publications/). After adding a publication here, in `BibTeX` format, run the "Update publications" workflow at the HRCM website repo ([cedadev/hrcm-website](https://github.com/cedadev/hrcm-website/tree/main)). New `.bib` files (e.g., for new projects, consortia) may be created in `bib/`.  
+The `.bib` files in this repo are used to generate a public, searchable publications list at [**hrcm.ceda.ac.uk/publications**](https://hrcm.ceda.ac.uk/publications/). Any new publications added here, in `BibTeX` format, are automatically updated to that webpage (daily). To update the webpage manually, run the "Update publications" workflow at the website repo ([cedadev/hrcm-website](https://github.com/cedadev/hrcm-website/tree/main)). New `.bib` files (e.g., for new projects, consortia) may be created in `bib/`.  
 
 #### `.bib/`
 
